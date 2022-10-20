@@ -134,18 +134,6 @@ function Login({
             Login as a Guest
           </button>
         </form>
-        <p className={`px-2 ${Styles.gray1}`}>
-          Or looking for version 1?
-          <span>
-            <a
-              target="blank"
-              className="px-2 text-accent"
-              href="https://v1-safeshare.now.sh"
-            >
-              go here
-            </a>
-          </span>
-        </p>
       </div>
     </div>
   );
