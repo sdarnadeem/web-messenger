@@ -3,23 +3,26 @@ import 'firebase/analytics';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyC9Cy-mfY_ZQQS6UK9G6dv42GglYT0ftws',
-  authDomain: 'abigo-share.firebaseapp.com',
-  databaseURL: 'https://abigo-share.firebaseio.com',
-  projectId: 'abigo-share',
-  storageBucket: 'abigo-share.appspot.com',
-  messagingSenderId: '545112504838',
-  appId: "1:545112504838:web:9b145eef919fd2988ce187",
-  measurementId: "G-F5TTLBY3M2",
+  apiKey: 'AIzaSyCLA5A5hXhKBp7m1PC8I8D_LIu7ig9C-zg',
+
+  authDomain: 'webm.nasyxnadeem.dev',
+
+  projectId: 'web-messenger-b5e45',
+  databaseURL: 'web-messenger-b5e45.firebaseio.com',
+
+  storageBucket: 'web-messenger-b5e45.appspot.com',
+
+  messagingSenderId: '618759504810',
+
+  appId: '1:618759504810:web:d493f7908f53114a43e1d3',
 };
-// Initialize Firebase
+
 firebase.initializeApp(firebaseConfig);
 
 if (process.env.NODE_ENV === 'production') {
   firebase.analytics();
 
-  firebase.firestore().enablePersistence()
-    .catch(console.error);
+  firebase.firestore().enablePersistence().catch(console.error);
 }
 
 export default firebase;
