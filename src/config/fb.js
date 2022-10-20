@@ -21,10 +21,10 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-if (process.env.NODE_ENV === 'production') {
-  firebase.analytics();
+// if (process.env.NODE_ENV === 'production') {
+//   firebase.analytics();
 
-  firebase.firestore().enablePersistence().catch(console.error);
-}
+//   firebase.firestore().enablePersistence().catch(console.error);
+// }
 
 export default firebase;
