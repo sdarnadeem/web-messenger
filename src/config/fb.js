@@ -5,7 +5,7 @@ import 'firebase/firestore';
 const firebaseConfig = {
   apiKey: 'AIzaSyCLA5A5hXhKBp7m1PC8I8D_LIu7ig9C-zg',
 
-  authDomain: 'web-messenger-b5e45.firebaseapp.com',
+  authDomain: 'webm.nasyxnadeem.dev',
 
   databaseURL: 'https://web-messenger-b5e45-default-rtdb.firebaseio.com',
 
